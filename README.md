@@ -25,17 +25,26 @@ Players will battle it out in a turn-based system, drawing and playing cards wit
 ### Gameplay:
 
 - **Turns:** Each player’s turn consists of three steps:
-  1. **Draw cards** – Draw two cards from the deck.
-  2. **Play cards** – Play any number of cards (with restrictions on duplicates).
+  1. **Draw cards** – Before drawing cards, player checks the effects of the **Dynamite** and **Jail** cards if they are in play. Then the player draws two cards from the deck.
+  2. **Play cards** – Play any number of cards (Duplicates rule: Only one blue card of each type can be placed in front of a player at a time).
   3. **Discard excess cards** – Discard excess cards if the player has more cards than their health points.
-  
-- **Card Types:**
-  - **Blue Cards** – Are placed in front player and last until they are removed (e.g., Barrel, Dynamite, Jail).
-  - **Brown Cards** – Have immediate effects and are discarded after use (e.g., Bang, Beer, Stagecoach, Indians).
 
-### Special Card Effects:
+- **Deck Reshuffle:** When the draw deck is exhausted, the discard pile is shuffled and used as the new draw deck.
+
+### Card Distribution:
+
+- **Total Cards:** 71 cards in the game.
+  - **Blue Cards:** 6 cards (2x Barrel, 1x Dynamite, 3x Jail).
+  - **Brown Cards:** 65 cards (30x Bang, 15x Missed, 8x Beer, 6x Cat Balou, 4x Stagecoach, 2x Indians).
+
+- **Card Types:**
+  - **Blue Cards** – Are placed in front player and last until they are removed.
+  - **Brown Cards** – Have immediate effects and are discarded after use.
+
+### Cards Effects:
 
 - **Bang**: Attack other players, causing them to lose health points.
+- **Missed**: If a player is targeted by a bang they can negate the attack by playing a **Missed** card. If they do not have a **Missed** card, they lose one health point.
 - **Barrel**: Chance to avoid a Bang attack (1 in 4 chance).
 - **Beer**: Gain 1 health point.
 - **Stagecoach**: Draw 2 cards.
