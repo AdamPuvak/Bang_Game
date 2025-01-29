@@ -17,12 +17,12 @@ Players will battle it out in a turn-based system, drawing and playing cards wit
 
 ## Key Features
 
-### Game Setup:
+### Game Setup
 
 - **Players:** 2-4 players can join a game.
 - **Starting Cards:** Each player starts with 4 cards and 4 health points. The number of health points is not limited.
   
-### Gameplay:
+### Gameplay
 
 - **Turns:** Each player’s turn consists of three steps:
   1. **Draw cards** – Before drawing cards, player checks the effects of the **Dynamite** and **Jail** cards if they are in play. Then the player draws two cards from the deck.
@@ -31,7 +31,7 @@ Players will battle it out in a turn-based system, drawing and playing cards wit
 
 - **Deck Reshuffle:** When the draw deck is exhausted, the discard pile is shuffled and used as the new draw deck.
 
-### Card Distribution:
+### Card Distribution
 
 - **Total Cards:** 71 cards in the game.
   - **Blue Cards:** 6 cards (2x Barrel, 1x Dynamite, 3x Jail).
@@ -41,7 +41,7 @@ Players will battle it out in a turn-based system, drawing and playing cards wit
   - **Blue Cards** – Are placed in front player and last until they are removed.
   - **Brown Cards** – Have immediate effects and are discarded after use.
 
-### Cards Effects:
+### Cards Effects
 
 - **Bang**: Attack other players, causing them to lose health points.
 - **Missed**: If a player is targeted by a bang they can negate the attack by playing a **Missed** card. If they do not have a **Missed** card, they lose one health point.
@@ -53,7 +53,7 @@ Players will battle it out in a turn-based system, drawing and playing cards wit
 - **Jail**: Imprison another player, preventing them from taking a turn unless they escape.
 - **Dynamite**: Trigger a 1 in 8 chance to lose 3 health points, or pass it to another player.
 
-### Goal:
+### Goal
 
 The goal of the game is simple: **Be the last player alive**.
 
